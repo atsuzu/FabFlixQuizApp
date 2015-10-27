@@ -1,0 +1,8 @@
+Who directed the movie 'movieTitle'?
+When was the movie 'movieTitle' released?
+Which star was in the movie 'movieTitle'?
+In which movie the stars 'starName1' and 'starName2' appear together?
+Who directed the star 'starName'?
+Which star appears in both movies 'movieTitle1' and 'movieTitle2'?
+Which star did not appear in the same movie with the star 'starName'?
+Who directed the star 'starName' in year 'movieYear'?

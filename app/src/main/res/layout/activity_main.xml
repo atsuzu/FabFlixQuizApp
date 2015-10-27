@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="FabQuiz"
+        android:id="@+id/title"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.16"
+        android:textAlignment="center"
+        android:textSize="100px"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:id="@+id/startButton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="300px"
+        android:layout_weight="0.03" />
+
+    <Button
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:text="Statistics"
+        android:id="@+id/statisticsButton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="300px"
+        android:layout_weight="0.03"
+        android:layout_marginBottom="300px" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/statsView"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.16" />
+</LinearLayout>
